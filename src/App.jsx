@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      
+      <h1 className='text-3xl text-center my-6 text-amber-700 py-1 bg-amber-300'>React Router</h1>
     </>
   )
 }
