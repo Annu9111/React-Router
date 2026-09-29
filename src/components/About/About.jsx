@@ -7,22 +7,20 @@ export default function About() {
                 <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                     <div className="md:5/12 lg:w-5/12">
                         <img
-                            src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png"
+                            src="../src/images/bulb.png"
                             alt="image"
                         />
                     </div>
                     <div className="md:7/12 lg:w-6/12">
                         <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
-                            React development is carried out by passionate developers
+                            Built to Learn React Routing
                         </h2>
                         <p className="mt-6 text-gray-600">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
-                            accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
-                            aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
+                            ReactRoutes is a learning project I created to understand how routing works in React applications. I built this project using React and React Router to create a multi-page-like experience without reloading the entire website.
                         </p>
                         <p className="mt-4 text-gray-600">
-                            Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
-                            Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
+                            While building this project, I learned how to create routes, navigate between pages, build nested layouts, use dynamic routes with useParams, and manage navigation using Link and NavLink.
+                            I also integrated the GitHub API to fetch real-time profile information and used React Router's loader functionality to load API data before rendering the GitHub page.
                         </p>
                     </div>
                 </div>
