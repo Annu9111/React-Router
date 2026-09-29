@@ -1,5 +1,5 @@
 // import React from 'react' 
-
+import bulb from "../../images/bulb.png";
 export default function About() {
     return (
         <div className="py-16 bg-white">
@@ -7,7 +7,7 @@ export default function About() {
                 <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                     <div className="md:5/12 lg:w-5/12">
                         <img
-                            src="../src/images/bulb.png"
+                            src={bulb}
                             alt="image"
                         />
                     </div>

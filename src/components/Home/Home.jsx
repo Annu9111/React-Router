@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 
+import computer from "../../images/computer.png" ;
+import tree from "../../images/tree.png" ;
+// import logo from "../../images/logo.png" ;
 export default function Home() {
     return (
         <div className="mx-auto w-full max-w-7xl">
@@ -31,12 +34,12 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="../src/images/computer.png" alt="image1" />
+                    <img className="w-96" src={computer} alt="image1" />
                 </div>
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="../src/images/tree.png" alt="image2" />
+                <img className="sm:w-96 w-48" src={tree} alt="image2" />
             </div>
 
             <h4 className="text-center text-1xl sm:text-1xl py-10 font-medium">Explore a React application built with React Router, featuring dynamic routes, nested layouts, navigation, and GitHub API integration.</h4>
